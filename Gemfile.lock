@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    buildkit (1.2.0)
+      sawyer (~> 0.6)
+    faraday (0.13.1)
+      multipart-post (>= 1.2, < 3)
+    hipchat (1.6.0)
+      httparty
+      mimemagic
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    mimemagic (0.3.2)
+    multi_xml (0.6.0)
+    multipart-post (2.0.0)
+    public_suffix (3.0.1)
+    sawyer (0.8.1)
+      addressable (>= 2.3.5, < 2.6)
+      faraday (~> 0.8, < 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  buildkit
+  hipchat
+
+BUNDLED WITH
+   1.16.0
